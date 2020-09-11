@@ -1,4 +1,5 @@
 #5 最长回文子串
+//方法一，采用的是将字符串倒置，然后求最长公共子串。同时注意特殊情况aacdecaa.
 class Solution {
     public String longestPalindrome(String s) {
         Stack<String> stack=new Stack<>();
@@ -50,3 +51,5 @@ class Solution {
         return f.toString();
     }
 }
+//方法二 采用动态规划
+//方法三 Manacher算法
