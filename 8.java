@@ -1,4 +1,5 @@
 #8 字符串转换整数 (atoi)
+    //更好的解法用正则
 //0001q,+,00001,00000
     public static int myAtoi(String str) {
         if(str.isEmpty())
